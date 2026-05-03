@@ -1,5 +1,9 @@
 import { ImageCarousel } from '../components/ImageCarousel'
 import { Section } from '../components/Section'
+import img1 from '../images/img1.jpeg'
+import img2 from '../images/img2.jpeg'
+import img3 from '../images/img3.jpeg'
+
 
 export default function EventsPage() {
     return (
@@ -45,9 +49,9 @@ export default function EventsPage() {
 
             <ImageCarousel
                 images={[
-                    'src/images/img1.jpeg',
-                    'src/images/img2.jpeg',
-                    'src/images/img3.jpeg',
+                    img1,
+                    img2,
+                    img3,
                 ]}
             />
             <section className="rounded-2xl border border-dashed border-amber-300 bg-white p-6 shadow-sm md:p-8">
