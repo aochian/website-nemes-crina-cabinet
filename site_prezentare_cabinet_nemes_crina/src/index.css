@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "DM Sans", "Segoe UI", sans-serif;
+  color: #2b2117;
+  background:
+    radial-gradient(circle at 12% 18%, rgba(255, 214, 178, 0.45), transparent 32%),
+    radial-gradient(circle at 85% 0%, rgba(214, 235, 220, 0.45), transparent 28%),
+    #fff9f4;
+}
