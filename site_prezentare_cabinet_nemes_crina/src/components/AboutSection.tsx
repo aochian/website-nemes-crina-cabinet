@@ -6,7 +6,7 @@ export function AboutSection() {
             <h2 className="text-2xl font-bold text-stone-800 text-center">Despre</h2>
             <div className="mt-3 space-y-3 text-stone-700">
                 <p>
-                    Mă numesc Crina-Maria Nemeș și sunt psiholog clinician și consilier cognitiv-comportamental,
+                    Mă numesc Crina-Maria Nemeș-Dressel și sunt psiholog clinician și consilier cognitiv-comportamental,
                     atestat de Colegiul Psihologilor din România.
                 </p>
                 <p>

@@ -40,8 +40,8 @@ export default function Navbar() {
                     </div>
 
                     <div className="leading-tight">
-                        <p className="text-base font-black tracking-tight text-stone-800 md:text-lg">
-                            Cabinet Nemes Crina
+                        <p className="text-base font-black tracking-tight text-stone-800 md:text-lg sm:block">
+                            Cabinet Nemeș-Dressel Crina-Maria
                         </p>
                         <p className="hidden text-xs font-medium text-stone-500 sm:block">
                             Psihologie & consiliere

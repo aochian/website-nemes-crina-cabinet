@@ -4,7 +4,7 @@ export function ContactFooter() {
             <div className="mx-auto w-full max-w-6xl px-4 py-8 md:px-6">
                 <h2 className="text-2xl font-black tracking-tight text-stone-800">Contact</h2>
                 <div className="mt-3 space-y-1 text-stone-700">
-                    <p>Cabinet individual de psihologie Nemes T. Crina-Maria</p>
+                    <p>Cabinet individual de psihologie Nemeș-Dressel Crina-Maria</p>
                     <p>Programări la:</p>
                     <p>
                         Tel.:{' '}
