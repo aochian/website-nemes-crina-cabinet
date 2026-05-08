@@ -4,6 +4,6 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/site_prezentare_cabinet_nemes_crina/',
+  base: '/website-nemes-crina-cabinet/',
   plugins: [react(), tailwindcss()],
 })
