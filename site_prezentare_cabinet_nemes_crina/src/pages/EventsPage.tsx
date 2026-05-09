@@ -3,6 +3,8 @@ import { Section } from '../components/Section'
 import img1 from '../images/img1.jpeg'
 import img2 from '../images/img2.jpeg'
 import img3 from '../images/img3.jpeg'
+import img4 from '../images/img4.jpeg'
+import img5 from '../images/img5.jpeg'
 
 
 export default function EventsPage() {
@@ -52,6 +54,8 @@ export default function EventsPage() {
                     img1,
                     img2,
                     img3,
+                    img4,
+                    img5,
                 ]}
             />
             <section className="rounded-2xl border border-dashed border-amber-300 bg-white p-6 shadow-sm md:p-8">
