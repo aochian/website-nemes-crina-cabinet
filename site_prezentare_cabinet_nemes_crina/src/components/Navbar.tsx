@@ -1,5 +1,6 @@
 import { useState, useRef } from 'react'
 import { Link, NavLink } from 'react-router-dom'
+import logo from '../images/logo_cabinet_ndc.png'
 
 const homeSections = [
     { id: 'despre', label: 'Despre' },
@@ -35,9 +36,11 @@ export default function Navbar() {
         <header className="sticky top-0 z-20 border-b border-amber-200/70 bg-white/85 backdrop-blur">
             <div className="mx-auto flex w-full max-w-6xl items-center justify-between gap-4 px-4 py-3 md:px-6">
                 <Link to="/" className="group flex items-center gap-3">
-                    <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-gradient-to-br from-amber-100 via-rose-100 to-emerald-100 shadow-sm ring-1 ring-amber-200/60 transition group-hover:scale-105">
-                        <span className="text-lg font-black text-amber-800">NC</span>
-                    </div>
+                    <img
+                        src={logo}
+                        alt="Logo Cabinet Nemeș-Dressel Crina-Maria"
+                        className="h-11 w-11 rounded-2xl object-cover shadow-sm ring-1 ring-amber-200/60 transition group-hover:scale-105"
+                    />
 
                     <div className="leading-tight">
                         <p className="hidden text-base font-black tracking-tight text-stone-800 md:text-lg sm:block">
